@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-BRAC_SPATIALITE_DB=BRAC.sqlite
+BRAC_SPATIALITE_DB=data/BRAC.sqlite
 
 echo "Creating BRAC Master table..."
 spatialite -silent $BRAC_SPATIALITE_DB < create_brac_master_table.sql
